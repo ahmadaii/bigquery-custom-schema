@@ -1,4 +1,4 @@
-#### Coachendo Chatbot Analytics
+#### BigQuery custom logging schema
 
 ##### Setup
 1. Install any version of python between 3.7 - 3.9
