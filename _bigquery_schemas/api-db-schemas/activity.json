@@ -1,0 +1,90 @@
+{
+    "fields":[
+        {
+            "name": "id", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "name", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "description", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "version", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "createdat", 
+            "type": "TIMESTAMP", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "updatedat", 
+            "type": "TIMESTAMP", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "type", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "status", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "visibility", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "timetocompleted", 
+            "type": "INTEGER", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "maxpages", 
+            "type": "INTEGER", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "agentid", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "location", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "language", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "startquery", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "moduleid", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "priority", 
+            "type": "INTEGER", 
+            "mode": "NULLABLE"
+        }
+        
+    ]
+}

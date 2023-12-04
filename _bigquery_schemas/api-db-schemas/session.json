@@ -1,0 +1,70 @@
+{
+    "fields":[
+        {
+            "name": "id", 
+            "type": "INTEGER", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "status", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "createdat", 
+            "type": "TIMESTAMP", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "updatedat", 
+            "type": "TIMESTAMP", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "startedat", 
+            "type": "TIMESTAMP", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "finishedat", 
+            "type": "TIMESTAMP", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "dialogflowsessionid", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "progress", 
+            "type": "INTEGER", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "lastpage", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "lastpageid", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "journeyid", 
+            "type": "INTEGER", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "moduleid", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "activityid", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        }
+
+    ]
+}

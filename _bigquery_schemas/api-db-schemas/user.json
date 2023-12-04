@@ -1,0 +1,49 @@
+{
+    "fields":[
+        {
+            "name": "id", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "email", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "role", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "status", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "createdat", 
+            "type": "TIMESTAMP", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "updatedat", 
+            "type": "TIMESTAMP", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "name", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "lastname", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "companyid", 
+            "type": "INTEGER", 
+            "mode": "NULLABLE"
+        }
+    ]
+}

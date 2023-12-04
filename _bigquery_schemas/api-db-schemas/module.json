@@ -1,0 +1,40 @@
+{
+    "fields":[
+        {
+            "name": "id", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "name", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "description", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "version", 
+            "type": "INTEGER", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "createdat", 
+            "type": "TIMESTAMP", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "updatedat", 
+            "type": "TIMESTAMP", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "status", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        }
+        
+    ]
+}

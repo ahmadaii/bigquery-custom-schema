@@ -1,0 +1,129 @@
+{
+    "insertId": "-oyks7uck0w",
+    "jsonPayload": {
+      "queryResult": {
+        "parameters": {
+          "user_name": "test user",
+          "rb-sounds-good": "Sounds good",
+          "rb-got-it": "Got it",
+          "session_name": "test session",
+          "goal_name": "test goal"
+        },
+        "text": "Why are you asking this?",
+        "currentPage": {
+          "displayName": "EXP",
+          "name": "projects/chatbot-dev-356403/locations/europe-west2/agents/b61e5299-8863-41cc-ade7-ab99fdd69c0b/flows/00000000-0000-0000-0000-000000000000/pages/a426d154-b65f-431a-a971-3b374d9419dd"
+        },
+        "advancedSettings": {
+          "loggingSettings": {}
+        },
+        "languageCode": "en",
+        "match": {
+          "event": "sys.no-match-1",
+          "confidence": 0.37176082,
+          "matchType": "NO_MATCH"
+        },
+        "responseMessages": [
+          {
+            "source": "VIRTUAL_AGENT",
+            "text": {
+              "text": [
+                "No match 1"
+              ]
+            },
+            "responseType": "HANDLER_PROMPT"
+          }
+        ],
+        "intentDetectionConfidence": 0.37176082,
+        "diagnosticInfo": {
+          "Session Id": "dfMessenger-800906",
+          "Alternative Matched Intents": [],
+          "Transition Targets Chain": [],
+          "Triggered Transition Names": [
+            "sys.no-match-1"
+          ],
+          "Execution Sequence": [
+            {
+              "Step 1": {
+                "Type": "INITIAL_STATE",
+                "InitialState": {
+                  "SessionParameters": {
+                    "rb-sounds-good": "Sounds good",
+                    "session_name": "test session",
+                    "user_name": "test user",
+                    "rb-got-it": "Got it",
+                    "goal_name": "test goal"
+                  },
+                  "FlowState": {
+                    "Version": "0.0",
+                    "Name": "Default Start Flow",
+                    "PageState": {
+                      "Status": "TRANSITION_ROUTING",
+                      "Name": "EXP",
+                      "PageId": "a426d154-b65f-431a-a971-3b374d9419dd",
+                      "FormFilled": true
+                    },
+                    "FlowId": "00000000-0000-0000-0000-000000000000"
+                  },
+                  "Event": "sys.no-match-1"
+                }
+              }
+            },
+            {
+              "Step 2": {
+                "FunctionExecution": {
+                  "Responses": [
+                    {
+                      "responseType": "HANDLER_PROMPT",
+                      "text": {
+                        "text": [
+                          "No match 1"
+                        ],
+                        "redactedText": [
+                          "No match 1"
+                        ]
+                      },
+                      "source": "VIRTUAL_AGENT"
+                    }
+                  ]
+                },
+                "StateMachine": {
+                  "FlowState": {
+                    "Version": "0.0",
+                    "FlowId": "00000000-0000-0000-0000-000000000000",
+                    "PageState": {
+                      "FormFilled": true,
+                      "Status": "TRANSITION_ROUTING",
+                      "PageId": "a426d154-b65f-431a-a971-3b374d9419dd",
+                      "Name": "EXP"
+                    },
+                    "Name": "Default Start Flow"
+                  },
+                  "TriggeredEvent": "sys.no-match-1",
+                  "TriggeredEventHandlerId": "sys.no-match-1"
+                },
+                "Type": "STATE_MACHINE"
+              }
+            }
+          ]
+        }
+      },
+      "responseId": "023eeb81-c21d-495d-83d1-41b9c33351cf",
+      "responseType": "FINAL"
+    },
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "chatbot-dev-356403"
+      }
+    },
+    "timestamp": "2022-12-19T15:43:56.476941Z",
+    "severity": "INFO",
+    "labels": {
+      "session_id": "dfMessenger-800906",
+      "agent_id": "b61e5299-8863-41cc-ade7-ab99fdd69c0b",
+      "location_id": "europe-west2"
+    },
+    "logName": "projects/chatbot-dev-356403/logs/dialogflow-runtime.googleapis.com%2Frequests",
+    "receiveTimestamp": "2022-12-19T15:43:56.707035689Z"
+  }

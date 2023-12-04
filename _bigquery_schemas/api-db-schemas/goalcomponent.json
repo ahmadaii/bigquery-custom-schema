@@ -1,0 +1,30 @@
+{
+    "fields":[
+        {
+            "name": "id", 
+            "type": "INTEGER", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "goalid", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "moduleid", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "priority", 
+            "type": "INTEGER", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "createdat", 
+            "type": "TIMESTAMP", 
+            "mode": "NULLABLE"
+        }
+           
+    ]
+}

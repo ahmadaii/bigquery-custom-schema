@@ -1,0 +1,64 @@
+{
+    "fields":[
+        {
+            "name": "id", 
+            "type": "INTEGER", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "status", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "mandatory", 
+            "type": "BOOLEAN", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "createdat", 
+            "type": "TIMESTAMP", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "updatedat", 
+            "type": "TIMESTAMP", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "finishedat", 
+            "type": "TIMESTAMP", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "startingat", 
+            "type": "TIMESTAMP", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "expiringat", 
+            "type": "TIMESTAMP", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "userid", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "goalid", 
+            "type": "STRING", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "completedsessions", 
+            "type": "INTEGER", 
+            "mode": "NULLABLE"
+        },
+        {
+            "name": "totalsessions", 
+            "type": "INTEGER", 
+            "mode": "NULLABLE"
+        }    
+    ]
+}

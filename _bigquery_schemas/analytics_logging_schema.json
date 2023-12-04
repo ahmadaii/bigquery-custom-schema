@@ -1,0 +1,205 @@
+{
+"fields":[
+    {
+        "name": "user_id", 
+        "type": "STRING", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "email", 
+        "type": "STRING", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "company", 
+        "type": "STRING", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "agent_id", 
+        "type": "STRING", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "session_id", 
+        "type": "STRING", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "response_id", 
+        "type": "STRING", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "responsetype", 
+        "type": "STRING", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "text", 
+        "type": "STRING", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "timestamp", 
+        "type": "TIMESTAMP", 
+        "mode": "NULLABLE"
+
+    },
+    {
+        "name": "logname", 
+        "type": "STRING", 
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "location_id", 
+        "type": "STRING", 
+        "mode": "NULLABLE"
+
+    },
+    {
+        "name": "currentpage", 
+        "type": "RECORD", 
+        "mode": "NULLABLE",
+        "fields": [
+            {
+                "name": "displayname", 
+                "type": "STRING", 
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "name", 
+                "type": "STRING", 
+                "mode": "NULLABLE"
+            }
+        ]
+    },
+    {
+        "name": "intent", 
+        "type": "RECORD", 
+        "mode": "NULLABLE",
+        "fields": [
+            {
+                "name": "displayname", 
+                "type": "STRING", 
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "name", 
+                "type": "STRING", 
+                "mode": "NULLABLE"
+            }
+        ]
+    },
+    {
+        "name": "responsemessages", 
+        "type": "RECORD", 
+        "mode": "REPEATED",
+        "fields": [
+            {
+                "name": "responsetype", 
+                "type": "STRING", 
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "source", 
+                "type": "STRING", 
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "text", 
+                "type": "RECORD", 
+                "mode": "NULLABLE",
+                "fields":[
+                    {
+                        "name": "text", 
+                        "type": "STRING", 
+                        "mode": "REPEATED"
+                    }
+                ]
+
+            }
+        ]
+    },
+    {
+        "name": "match", 
+        "type": "RECORD", 
+        "mode": "NULLABLE",
+        "fields": [
+            {
+                "name": "resolvedinput", 
+                "type": "STRING", 
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "matchtype", 
+                "type": "STRING", 
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "confidence", 
+                "type": "FLOAT", 
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "event", 
+                "type": "STRING", 
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "parameters", 
+                "type": "RECORD", 
+                "mode": "REPEATED",
+                "fields": [
+                    {
+                        "name":"name",
+                        "type": "STRING",
+                        "mode":"NULLABLE"
+                    },
+                    {
+                        "name":"value",
+                        "type": "STRING",
+                        "mode":"NULLABLE"
+                    }
+                ]
+            },
+            {
+                "name": "intent", 
+                "type": "RECORD", 
+                "mode": "NULLABLE",
+                "fields": [
+                    {
+                        "name": "displayname", 
+                        "type": "STRING", 
+                        "mode": "NULLABLE"
+                    },
+                    {
+                        "name": "name", 
+                        "type": "STRING", 
+                        "mode": "NULLABLE"
+                    }
+                ]
+            }
+        ]
+
+    },
+    {
+        "name": "parameters", 
+        "type": "RECORD", 
+        "mode": "REPEATED",
+        "fields": [
+            {
+                "name":"name",
+                "type": "STRING",
+                "mode":"NULLABLE"
+            },
+            {
+                "name":"value",
+                "type": "STRING",
+                "mode":"NULLABLE"
+            }
+        ]
+    }
+]
+}
+
